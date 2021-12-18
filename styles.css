@@ -1,0 +1,146 @@
+body {
+    background-image: url('images/blackfood.jpg');
+    background-size: contain;
+    background-blend-mode: lighten;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    font-family:  'Times New Roman';
+}
+
+.header-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8em;
+    height: 3.3em;
+    background-color: aquamarine;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 3px aquamarine;
+}
+
+.header-option:hover {
+    background-color: rgb(40, 176, 218);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.inner-content {
+    width: 15em;
+    background-color: azure;
+    margin: auto;
+    padding: 2em 4em 2em 4em;
+    border-radius: 5px;
+    border: 10px solid gray;
+    margin-bottom: 5em;
+    font-family: 'Lucida Handwriting', cursive;
+    font-size:x-large;
+    background-color: lightblue;
+}
+
+.header {
+    width: max-content;
+    padding: 1em;
+}
+
+.sub-header {
+    position: relative;
+    left: -20px;
+}
+
+.menu-header {
+    width: 8em;
+    padding: 0.2em 0em;
+    text-align: center;
+}
+
+.menu-sub-header {
+    text-align: center;
+    padding: 0;
+    font-size: xx-large;
+    margin-top: 7em;
+}
+
+.item-price {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.menu-item {
+    padding-bottom: 9em;
+    position: relative;
+}
+
+.menu-item-image {
+    background-size: cover;
+    width: 10em;
+    height: 10em;
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+    border: 2px solid rgb(83, 69, 69);
+    border-radius: 5px;
+}
+
+.honey-tea-image {
+    background-image: url('images/honeyTea.jpg');
+}
+
+.beary-tea-image {
+    background-image: url('images/honeyTea.jpg');
+}
+
+.toast-and-jam-image {
+    background-image: url('images/honeyTea.jpg');
+}
+
+.fresh-fruit-image {
+    background-image: url('images/honeyTea.jpg');
+}
+
+.pancakes-image {
+    background-image: url('images/honeyTea.jpg');
+}
+
+.french-toast-image {
+    background-image: url('images/honeyTea.jpg');
+}
+
+.beary-veggie-sandwich-image {
+    background-image: url('images/honeyTea.jpg');
+}   
+
+.blt-image {
+    background-image: url('images/honeyTea.jpg');
+}
+
+.bagel-and-lox-image {
+    background-image: url('images/honeyTea.jpg');
+}
+
+.honeycomb-image {
+    background-image: url('images/honeyTea.jpg');
+}
+
+.beary-bowl-image {
+    background-image: url('images/honeyTea.jpg');
+}
+
+.the-beary-best-porridge-image {
+    background-image: url('images/honeyTea.jpg');
+}
+
+
+
+
+
+
+
+
+
+
